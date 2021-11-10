@@ -1,0 +1,38 @@
+package entities;
+
+public class OrderItem {
+	private Product product;
+	private Integer quantity;
+	//private Double price;
+	
+	public OrderItem() {
+		
+	}
+	public OrderItem(Product product, Integer quantity) {
+		this.product = product;
+		this.quantity = quantity;
+	//	this.price = price;
+	}
+	public Product getProduct() {
+		return product;
+	}
+	public void setProduct(Product product) {
+		this.product = product;
+	}
+	public Integer getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(Integer quantity) {
+		this.quantity = quantity;
+	}
+	public Double subTotal() {
+		return product.getPrice() * quantity;
+	}
+	@Override
+	public String toString() {
+		return product + ", Quantity: "+ quantity + ", SubTotal: $"+ String.format("%.2f", subTotal());
+	}
+	
+	
+	
+}
