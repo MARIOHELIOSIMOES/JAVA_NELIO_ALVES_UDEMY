@@ -1,10 +1,10 @@
-package simoes.mario.workshopmongo;
+package simoes.mario.MongoDB;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WorkshopmongoApplicationTests {
+class MongoDbApplicationTests {
 
 	@Test
 	void contextLoads() {
