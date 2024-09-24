@@ -51,8 +51,4 @@ O curso é indicado para:
 - Estudantes universitários que buscam reforço em Java.
 - Profissionais que desejam se preparar para ingressar ou se destacar no mercado de trabalho como desenvolvedores Java.
 
-## Como Executar os Projetos
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
